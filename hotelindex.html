@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            screens: {
+                'xxs':'375px',
+                'xs':'415px',
+              'sm': '640px',
+      // => @media (min-width: 640px) { ... }
+
+               'md': '768px',
+      // => @media (min-width: 768px) { ... }
+
+               'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+                'xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
+
+                '2xl': '1536px',
+      // => @media (min-width: 1536px) { ... }
+            }
+          }
+        }
+      </script>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="flex xxs:flex-col sm:flex-row justify-between px-3 xxs:p-5 bg-gray-200 w-[100%] h-[80px] items-center">
+        <div class="text-lg font-bold gap-6 ">
+           <span class="text-red-800">LEBNON</span>INN
+        </div>
+        <ul class="menu flex justify-end items-center gap-5 ">
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+        </ul>
+    </header>
+    <div class="contain flex  w-[100%] sm:w-[80%] mx-auto justify-center items-center flex-col sm:flex-col md:flex-col lg:flex-row my-[100px] gap-[50px]">
+        <div class="container_body w-[80%] flex flex-col gap-[20px]">
+            <h3 class="text-3xl font-semibold">About Us</h3>
+            <p class="text-justify">Welcome to Lebnon Inn, where luxury meets comfort.
+                 Nestled in the heart of Chennai, Tamil Nadu, Lebnon Inn offers an unparalleled blend of elegance and modern amenities, ensuring an unforgettable stay for every guest. Whether you’re here for business, leisure, or a special occasion, our dedicated team is committed to providing exceptional service and creating a personalized experience tailored to your needs. Founded in 2003, Lebnon Inn has a rich history of hospitality excellence.
+                Over the years, we have evolved to become a premier destination for travelers from around the world. Our commitment to quality and attention to detail have earned us a reputation as one of the finest hotels in Chennai. Our mission is to create a welcoming and inclusive environment where every guest feels valued and at home. We are dedicated to sustainability and strive to minimize our environmental impact through eco-friendly practices.</p>
+        </div>
+        <img class="rounded-md" src="C:\Users\USER\Desktop\Web development projects\images\hotel-reception-table.jpeg" alt="" width="300px" height="550px">
+    </div>
+    <div class="bg-gray-200 py-[20px]">
+    <h3 class="text-3xl text-center font-semibold">Our Facilities And Services</h3><br/>
+    <div class="cards flex flex-wrap mx-auto  gap-[30px] sm: justify-center md:justify-center  py-5">
+        
+        <div class="card_body shadow-xl md:w[30%] p-4 w-[300px]">
+           <img src="D:\web images\New folder\img1.jpg" alt="" width="300px" height="200px">
+           <h4 class="text-2xl font-semibold flex flex-col items-center ">Card Heading</h4>
+           <h4 class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, laborum.</h4>
+        </div>
+        <div class="card_body shadow-xl md:w[30%] p-4 w-[300px]">
+            <img src="D:\web images\New folder\img2.jpg" alt="" width="300px" height="200px">
+            <h4 class="text-2xl font-semibold flex flex-col items-center ">Card Heading</h4>
+            <h4 class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, laborum.</h4>
+        </div>
+        <div class="card_body shadow-xl md:w[30%] p-4 w-[300px]">
+            <img src="D:\web images\New folder\img3.jpg" alt="" width="300px" height="200px">
+            <h4 class="text-2xl font-semibold flex flex-col items-center ">Card Heading</h4>
+            <h4 class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, laborum.</h4>
+        </div>
+        <div class="card_body shadow-xl md:w[30%] p-4 w-[300px]">
+            <img src="D:\web images\New folder\img4.jpg" alt="" width="300px" height="200px">
+            <h4 class="text-2xl font-semibold flex flex-col items-center ">Card Heading</h4>
+           <h4 class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, laborum.</h4>
+        </div>
+        <div class="card_body shadow-xl md:w[30%] p-4 w-[300px]">
+            <img src="D:\web images\New folder\img5.jpg" alt="" width="300px" height="200px">
+            <h4 class="text-2xl font-semibold flex flex-col items-center ">Card Heading</h4>
+           <h4 class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, laborum.</h4>
+        </div>
+        <div class="card_body shadow-xl md:w[30%] p-4 w-[300px]">
+            <img src="D:\web images\New folder\img6.jpg" alt="" width="300px" height="200px">
+            <h4 class="text-2xl font-semibold flex flex-col items-center ">Card Heading</h4>
+           <h4 class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, laborum.</h4>
+        </div>
+        <div class="card_body shadow-xl md:w[30%] p-4 w-[300px]">
+            <img src="D:\web images\New folder\img7.jpg" alt="" width="300px" height="200px">
+            <h4 class="text-2xl font-semibold flex flex-col items-center ">Card Heading</h4>
+            <h4 class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, laborum.</h4>
+        </div>
+        <div class="card_body shadow-xl md:w[30%] p-4 w-[300px]">
+            <img src="D:\web images\New folder\img8.jpg" alt="" width="300px" height="200px">
+            <h4 class="text-2xl font-semibold flex flex-col items-center ">Card Heading</h4>
+            <h4 class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, laborum.</h4>
+        </div>
+        <div class="card_body shadow-xl md:w[30%] p-4 w-[300px]">
+            <img src="D:\web images\New folder\img9.jpg" alt="" width="300px" height="200px">
+            <h4 class="text-2xl font-semibold flex flex-col items-center ">Card Heading</h4>
+           <h4 class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, laborum.</h4>
+        </div>
+    </div>
+</div>
+    <footer class="text-center mt-[50px] text-xl ">
+        <div class="contact_head">
+            <h3 class="text-3xl font-semibold mb-5">Contact Us</h3>
+        </div>
+        <div>
+       <form>
+        <input class="w-[50%] border border-gray-500 p-3 m-3" type="text" placeholder="Name" required/><br/>
+        <input class="w-[50%] border border-gray-500 p-3 m-3" type="email" placeholder="Email" required/><br/>
+        <input class="w-[50%] border border-gray-500 p-3 m-3" type="text" placeholder="Phone Number" required/><br/>
+        <input class="w-[50%] border border-gray-500 p-3 m-3" type="text" placeholder="Message" required/><br/>
+        <button class="w-[25%] border border-gray-500 p-3 m-5 mb-[30px]" type="submit">SUBMIT</button>
+        </form>
+       </div>
+       <div class="mt-8 bg-gray-200 p-5">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+       
+        <p class="text-xl font-semibold">@All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
